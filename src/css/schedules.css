@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(28, 5, 82);
+}
+
+.schedule-con {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 2px 5px;
+  outline: none !important;
+  background-color: darkblue;
+  border: 2px solid snow;
+  color: white;
+}
+.inputs::placeholder {
+  color: rgb(233, 224, 224);
+}
+
+.inputs-con > div {
+  color: white;
+  padding: 5px;
+}
+
+.datetime {
+  height: 30px;
+  width: 140px;
+  border-radius: 10px;
+  padding: 2px 5px;
+  outline: none !important;
+  background-color: darkblue;
+  border: 2px solid snow;
+  color: white;
+}
+.inputs-con button {
+  background-color: cornflowerblue;
+  border: 2px solid white;
+  font-size: 1.2em;
+  border-radius: 20px;
+  padding: 5px 20px;
+  transition: all 0.5s ease;
+}
+.inputs-con button:hover {
+  background-color: rgb(8, 36, 88);
+  border: 2px solid white;
+  color: white;
+}
