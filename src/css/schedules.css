@@ -22,6 +22,9 @@ body {
 .inputs::placeholder {
   color: rgb(233, 224, 224);
 }
+.inputs-con > div > input {
+  margin: 5px;
+}
 
 .inputs-con > div {
   color: white;

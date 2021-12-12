@@ -6,12 +6,12 @@ import '../css/schedules.css'
 const Schedules = () => {
     // States
     const [todos, setTodos] = useState([
-        {id: 1, title: "My Todo", description: "A short description",
-         date: "20-12-21", time: "01:03", active: true},
-        {id: 2, title: "My Todo", description: "A short description",
-         date: "20-12-21", time: "01:03", active: true},
-        {id: 3, title: "My Todo", description: "A short description",
-         date: "20-12-21", time: "01:03", active: false}
+        {id: 1, title: "Work", description: "Got an appointment with Dr. Davies",
+         date: "2021-12-21", time: "08:30", active: true},
+        {id: 2, title: "Home", description: "My daughter's got assignments to do before deadline",
+         date: "2021-12-21", time: "08:00", active: false},
+        {id: 3, title: "Home", description: "Get some snacks for Christmas with family",
+         date: "2021-12-24", time: "02:00", active: true}
     ])
     const [title, setTitle] = useState("")
     const [description, setDescription] = useState("")
