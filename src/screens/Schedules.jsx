@@ -8,7 +8,7 @@ const Schedules = () => {
     const [todos, setTodos] = useState([
         {id: 1, title: "Work", description: "Got an appointment with Dr. Davies",
          date: "2021-12-21", time: "08:30", active: true},
-        {id: 2, title: "Home", description: "My daughter's got assignments to do before deadline",
+        {id: 2, title: "Home", description: "My daughter got assignments to do before deadline",
          date: "2021-12-21", time: "08:00", active: false},
         {id: 3, title: "Home", description: "Get some snacks for Christmas with family",
          date: "2021-12-24", time: "02:00", active: true}
